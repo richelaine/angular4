@@ -1,0 +1,14 @@
+<ul>
+  <li *ngFor = "let dabooname of names"> 
+    <app-user-item [name] = "dabooname"> </app-user-item>
+    <!-- [daboo] - passed a value to the input named 'daboo' -->
+  </li>
+
+  <!--*ngFor - akin to a for loop 
+      NgFor - the CLASS that implements the logic
+      ngFor - the SELECTOR for the attribute we want to use -->
+
+  <!--'let daboo/name of names' - loop over each element in names and assign each one to a local variable 'name'
+          names - is our ARRAY of names
+          let daboo/name - is called a REFERENCE -->
+</ul>
